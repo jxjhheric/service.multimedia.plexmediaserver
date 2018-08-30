@@ -20,7 +20,7 @@ systemctl start service.multimedia.plexmediaserver.service
 再到kodi界面开启服务即可
 
 # 自动挂载nfs或者samba文件夹
-参考nfs.mount.sample和samba.mount.sample
+参考nfs.mount.sample和cifs.mount.sample
 其中需要注意的是文件最后的命名必须是 文件名的路径.mount('/'用'-'代替)
 举个例子
 ```
